@@ -24,8 +24,7 @@ html, body {
 	margin: 0;
 	overflow: hidden;
 	
-	font-family: 'Crimson Text', Times, 'Times New Roman', serif;
-	font-size: 36px;
+	font-family: 'Crimson Text', Georgia, Times, 'Times New Roman', serif;
 	
 	background: #fff;
 	color: #222;
@@ -87,6 +86,10 @@ h4.inverted {
 	
 	-webkit-perspective: 600px;
  	-webkit-perspective-origin: 50% 25%;
+}
+
+section {
+	font-size: 36px;
 }
 
 .s {
@@ -221,14 +224,24 @@ a:not(.image) {
 		border: none;
 	}
 
-img {
+.img {
 	margin: 30px 0 0 0;
-	
+	border:5px solid #fff;
+
 }
 
+.code a {
+	font-size:16px !important !important;
+}
 
+pre {
+	font:16px 'Consolas';
+	text-align:left;
+}
 
-
+div.gist-meta {
+	font-size:13px;
+}
 
 
 
