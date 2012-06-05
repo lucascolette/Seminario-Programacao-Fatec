@@ -1,7 +1,3 @@
-/**
- * @author Hakim El Hattab
- */
-
 
 /*********************************************
  * FONT-FACE DEFINITIONS
@@ -86,6 +82,7 @@ h4.inverted {
 	
 	-webkit-perspective: 600px;
  	-webkit-perspective-origin: 50% 25%;
+
 }
 
 section {
